@@ -1,0 +1,5 @@
+[
+  "We decided to allow slack.example.test because it is sanctioned collaboration SaaS.",
+  "We should review unknown-copilot.example.test destinations that are not in the SaaS inventory.",
+  "We must never allow public-llm.example.test because it is a prohibited public LLM."
+]

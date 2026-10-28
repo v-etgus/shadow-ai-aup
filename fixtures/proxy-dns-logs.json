@@ -1,0 +1,38 @@
+[
+  {
+    "id": "log-allow-001",
+    "timestamp": "2026-10-26T16:01:00Z",
+    "user": "alex.rivera",
+    "srcIp": "10.20.0.14",
+    "destination": "slack.example.test",
+    "queryType": "A",
+    "method": "GET",
+    "app": "Slack",
+    "bytes": 4096,
+    "notes": "SYNTHETIC: sanctioned collaboration SaaS"
+  },
+  {
+    "id": "log-review-001",
+    "timestamp": "2026-10-26T16:02:00Z",
+    "user": "blair.cho",
+    "srcIp": "10.20.0.28",
+    "destination": "unknown-copilot.example.test",
+    "queryType": "A",
+    "method": "POST",
+    "app": "MysteryCopilot",
+    "bytes": 8192,
+    "notes": "SYNTHETIC: unsanctioned AI assistant not in inventory"
+  },
+  {
+    "id": "log-block-001",
+    "timestamp": "2026-10-26T16:03:00Z",
+    "user": "casey.nguyen",
+    "srcIp": "10.20.0.41",
+    "destination": "public-llm.example.test",
+    "queryType": "A",
+    "method": "POST",
+    "app": "PublicLLM",
+    "bytes": 65536,
+    "notes": "SYNTHETIC: prohibited public LLM / shadow-AI exfil risk"
+  }
+]

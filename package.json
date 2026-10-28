@@ -1,0 +1,17 @@
+{
+  "name": "shadow-ai-aup",
+  "version": "0.1.0",
+  "description": "Solo-V Track 03: Shadow-AI Discovery and AUP Enforcer on H-MEM. Synthetic SAMPLE_MODE is fully offline.",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "setup": "npx --yes degit meterless/meterless/engines/hmem/reference vendor/hmem && cd vendor/hmem && npm install --no-audit --no-fund",
+    "notebook": "tsx notebook.ts",
+    "sample": "tsx src/sample.ts",
+	"meterless:smoke": "tsx scripts/meterless-smoke.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

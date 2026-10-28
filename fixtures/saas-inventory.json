@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Slack",
+    "domains": ["slack.example.test"],
+    "status": "sanctioned",
+    "category": "collaboration",
+    "owner": "IT"
+  },
+  {
+    "name": "Contoso365",
+    "domains": ["outlook.example.test", "login.example.test"],
+    "status": "sanctioned",
+    "category": "productivity",
+    "owner": "IT"
+  }
+]

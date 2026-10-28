@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sanctioned_collaboration",
+    "defaultVerdict": "allow",
+    "hostSuffixes": ["slack.example.test", "outlook.example.test"],
+    "apps": ["Slack", "Contoso365"],
+    "reason": "Approved collaboration / productivity SaaS listed in inventory"
+  },
+  {
+    "id": "unsanctioned_ai",
+    "defaultVerdict": "review",
+    "hostSuffixes": ["unknown-copilot.example.test"],
+    "apps": ["MysteryCopilot"],
+    "reason": "Shadow-AI tool not on the sanctioned SaaS list; human review required"
+  },
+  {
+    "id": "prohibited_public_llm",
+    "defaultVerdict": "block",
+    "hostSuffixes": ["public-llm.example.test"],
+    "apps": ["PublicLLM"],
+    "reason": "Unapproved public LLM. Company data must never be sent to this class"
+  }
+]
